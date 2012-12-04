@@ -10,35 +10,35 @@ Server Hostname:        localhost
 Server Port:            8080
 
 Document Path:          /hello/alganet
-Document Length:        50212 bytes
+Document Length:        50247 bytes
 
 Concurrency Level:      100
-Time taken for tests:   87.829 seconds
+Time taken for tests:   92.701 seconds
 Complete requests:      30000
-Failed requests:        2984
-   (Connect: 0, Receive: 0, Length: 2984, Exceptions: 0)
+Failed requests:        27269
+   (Connect: 0, Receive: 0, Length: 27269, Exceptions: 0)
 Write errors:           0
-Total transferred:      1509986656 bytes
-HTML transferred:       1506356656 bytes
-Requests per second:    341.57 [#/sec] (mean)
-Time per request:       292.763 [ms] (mean)
-Time per request:       2.928 [ms] (mean, across all concurrent requests)
-Transfer rate:          16789.42 [Kbytes/sec] received
+Total transferred:      1511066612 bytes
+HTML transferred:       1507436612 bytes
+Requests per second:    323.62 [#/sec] (mean)
+Time per request:       309.005 [ms] (mean)
+Time per request:       3.090 [ms] (mean, across all concurrent requests)
+Transfer rate:          15918.32 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.2      0       6
-Processing:    18  292  14.6    290     346
-Waiting:        1  290  14.6    288     343
-Total:         24  292  14.5    290     346
+Connect:        0    0   0.1      0       3
+Processing:    24  308 110.9    287     998
+Waiting:        2  306 110.1    284     991
+Total:         27  308 110.9    287     998
 
 Percentage of the requests served within a certain time (ms)
-  50%    290
-  66%    293
-  75%    299
-  80%    301
-  90%    309
-  95%    317
-  98%    326
-  99%    330
- 100%    346 (longest request)
+  50%    287
+  66%    290
+  75%    293
+  80%    295
+  90%    308
+  95%    320
+  98%    972
+  99%    982
+ 100%    998 (longest request)
