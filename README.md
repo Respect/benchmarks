@@ -16,6 +16,7 @@ ab line: ab -c 100 -n 30000 http://localhost:8080/hello/alganet > bench.txt
 
   * Respect/Rest
   * Silex
+  * Slim
 
 Bench results on the bench.txt file in each project folder.
 
