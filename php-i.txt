@@ -77,7 +77,7 @@ apc.rfc1867_prefix => upload_ => upload_
 apc.rfc1867_ttl => 3600 => 3600
 apc.serializer => default => default
 apc.shm_segments => 1 => 1
-apc.shm_size => 32M => 32M
+apc.shm_size => 128M => 128M
 apc.shm_strings_buffer => 4M => 4M
 apc.slam_defense => On => On
 apc.stat => On => On
@@ -545,7 +545,6 @@ TERM => xterm
 SHELL => /bin/bash
 XDG_SESSION_COOKIE => c98fe8b2f7ab1e1731f2806150b187ed-1354602653.398784-1772270181
 WINDOWID => 67108870
-OLDPWD => /home/alganet/Projects/Respect/benchmarks/Silex
 GNOME_KEYRING_CONTROL => /run/user/alganet/keyring-gmHP2D
 GTK_MODULES => overlay-scrollbar
 USER => alganet
@@ -574,11 +573,12 @@ XDG_DATA_DIRS => /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share
 DBUS_SESSION_BUS_ADDRESS => unix:abstract=/tmp/dbus-1W6lEpg3mV,guid=14289c6c50975a76ab52b8ed50bd989d
 LESSOPEN => | /usr/bin/lesspipe %s
 XDG_RUNTIME_DIR => /run/user/alganet
-DISPLAY => :0
+DISPLAY => :0.0
 XDG_CURRENT_DESKTOP => Unity
 LESSCLOSE => /usr/bin/lesspipe %s %s
 COLORTERM => gnome-terminal
 XAUTHORITY => /home/alganet/.Xauthority
+OLDPWD => /home/alganet/Projects/Respect
 _ => /usr/bin/php
 
 PHP Variables
@@ -592,7 +592,6 @@ _SERVER["TERM"] => xterm
 _SERVER["SHELL"] => /bin/bash
 _SERVER["XDG_SESSION_COOKIE"] => c98fe8b2f7ab1e1731f2806150b187ed-1354602653.398784-1772270181
 _SERVER["WINDOWID"] => 67108870
-_SERVER["OLDPWD"] => /home/alganet/Projects/Respect/benchmarks/Silex
 _SERVER["GNOME_KEYRING_CONTROL"] => /run/user/alganet/keyring-gmHP2D
 _SERVER["GTK_MODULES"] => overlay-scrollbar
 _SERVER["USER"] => alganet
@@ -621,19 +620,20 @@ _SERVER["XDG_DATA_DIRS"] => /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/
 _SERVER["DBUS_SESSION_BUS_ADDRESS"] => unix:abstract=/tmp/dbus-1W6lEpg3mV,guid=14289c6c50975a76ab52b8ed50bd989d
 _SERVER["LESSOPEN"] => | /usr/bin/lesspipe %s
 _SERVER["XDG_RUNTIME_DIR"] => /run/user/alganet
-_SERVER["DISPLAY"] => :0
+_SERVER["DISPLAY"] => :0.0
 _SERVER["XDG_CURRENT_DESKTOP"] => Unity
 _SERVER["LESSCLOSE"] => /usr/bin/lesspipe %s %s
 _SERVER["COLORTERM"] => gnome-terminal
 _SERVER["XAUTHORITY"] => /home/alganet/.Xauthority
+_SERVER["OLDPWD"] => /home/alganet/Projects/Respect
 _SERVER["_"] => /usr/bin/php
 _SERVER["PHP_SELF"] => 
 _SERVER["SCRIPT_NAME"] => 
 _SERVER["SCRIPT_FILENAME"] => 
 _SERVER["PATH_TRANSLATED"] => 
 _SERVER["DOCUMENT_ROOT"] => 
-_SERVER["REQUEST_TIME_FLOAT"] => 1354660922.6106
-_SERVER["REQUEST_TIME"] => 1354660922
+_SERVER["REQUEST_TIME_FLOAT"] => 1354662152.4279
+_SERVER["REQUEST_TIME"] => 1354662152
 _SERVER["argv"] => Array
 (
 )
