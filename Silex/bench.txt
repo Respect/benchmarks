@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /hello/alganet
+Document Length:        13 bytes
+
+Concurrency Level:      100
+Time taken for tests:   73.665 seconds
+Complete requests:      30000
+Failed requests:        0
+Write errors:           0
+Total transferred:      6330000 bytes
+HTML transferred:       390000 bytes
+Requests per second:    407.25 [#/sec] (mean)
+Time per request:       245.550 [ms] (mean)
+Time per request:       2.455 [ms] (mean, across all concurrent requests)
+Transfer rate:          83.92 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       8
+Processing:    28  245  14.4    242     350
+Waiting:       27  245  14.4    241     350
+Total:         36  245  14.3    242     350
+
+Percentage of the requests served within a certain time (ms)
+  50%    242
+  66%    246
+  75%    250
+  80%    253
+  90%    261
+  95%    270
+  98%    281
+  99%    285
+ 100%    350 (longest request)
