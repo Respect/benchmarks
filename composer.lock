@@ -1,6 +1,105 @@
 {
-    "hash": "bfa751bf4ea791e2beb59afc0ecc5f7d",
+    "hash": "5a347b485eef0996dc7020b1d04cfc3c",
     "packages": [
+        {
+            "name": "Respect/Rest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/Respect/Rest.git",
+                "reference": "74203e08e16aeca0f180c6e5d5df0e8a11887fc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/Respect/Rest/zipball/74203e08e16aeca0f180c6e5d5df0e8a11887fc7",
+                "reference": "74203e08e16aeca0f180c6e5d5df0e8a11887fc7",
+                "shasum": ""
+            },
+            "time": "2012-07-02 10:30:13",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Respect\\Rest": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD Style"
+            ],
+            "authors": [
+                {
+                    "name": "Henrique Moody",
+                    "email": "henriquemoody@gmail.com",
+                    "homepage": "http://henriquemoody.com/"
+                },
+                {
+                    "name": "Alexandre Gomes Gaigalas",
+                    "email": "alexandre@gaigalas.net"
+                },
+                {
+                    "name": "Augusto Pascutti",
+                    "email": "contato@augustopascutti.com"
+                },
+                {
+                    "name": "Alexandre Gaigalas",
+                    "email": "alganet@alganet-workstation.(none)"
+                },
+                {
+                    "name": "kleberhs007",
+                    "email": "kleberhs007@yahoo.com"
+                },
+                {
+                    "name": "Leandro",
+                    "email": "lleitep3@gmail.com"
+                },
+                {
+                    "name": "Rogerio Prado de Jesus",
+                    "email": "rogeriopradoj@gmail.com"
+                },
+                {
+                    "name": "Alexandre Gaigalas",
+                    "email": "alexandre@gaiaglas.net"
+                },
+                {
+                    "name": "Anderson Casimiro",
+                    "email": "duodraco@duo.draco"
+                },
+                {
+                    "name": "Anderson Casimiro",
+                    "email": "duodraco@gmail.com"
+                },
+                {
+                    "name": "Augusto Pascutti",
+                    "email": "augusto@phpsp.org.br"
+                },
+                {
+                    "name": "Ben Ramsey",
+                    "email": "ben@benramsey.com"
+                },
+                {
+                    "name": "eduardomarcate",
+                    "email": "eduardo@marcate.info"
+                },
+                {
+                    "name": "Eduardo M. Garcia",
+                    "email": "eduardo@debian.elam"
+                },
+                {
+                    "name": "Nick Rawe",
+                    "email": "nickrawe2@gmail.com"
+                },
+                {
+                    "name": "Pablo Lacerda de Miranda",
+                    "email": "pablolmiranda@gmail.com"
+                },
+                {
+                    "name": "wesleyvicthor",
+                    "email": "w.v.mendes.s@gmail.com"
+                }
+            ],
+            "description": "Thin controller for RESTful applications"
+        },
         {
             "name": "pimple/pimple",
             "version": "dev-master",
