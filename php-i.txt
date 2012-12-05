@@ -42,13 +42,13 @@ Configuration
 
 apc
 
-APC Support => disabled
+APC Support => enabled
 Version => 3.1.13
 APC Debugging => Disabled
 MMAP Support => Enabled
-MMAP File Mask =>  
+MMAP File Mask => /dev/zero
 Locking type => pthread mutex Locks
-Serialization Support => broken
+Serialization Support => php
 Revision => $Revision: 327136 $
 Build Date => Nov 26 2012 04:31:00
 
@@ -56,18 +56,18 @@ Directive => Local Value => Master Value
 apc.cache_by_default => On => On
 apc.canonicalize => On => On
 apc.coredump_unmap => Off => Off
-apc.enable_cli => Off => Off
+apc.enable_cli => On => On
 apc.enabled => On => On
 apc.file_md5 => Off => Off
 apc.file_update_protection => 2 => 2
 apc.filters => no value => no value
-apc.gc_ttl => 3600 => 3600
+apc.gc_ttl => 600 => 600
 apc.include_once_override => Off => Off
 apc.lazy_classes => Off => Off
 apc.lazy_functions => Off => Off
-apc.max_file_size => 1M => 1M
-apc.mmap_file_mask => no value => no value
-apc.num_files_hint => 1000 => 1000
+apc.max_file_size => 2M => 2M
+apc.mmap_file_mask => /dev/zero => /dev/zero
+apc.num_files_hint => 2700 => 2700
 apc.preload_path => no value => no value
 apc.report_autofilter => Off => Off
 apc.rfc1867 => Off => Off
@@ -77,15 +77,15 @@ apc.rfc1867_prefix => upload_ => upload_
 apc.rfc1867_ttl => 3600 => 3600
 apc.serializer => default => default
 apc.shm_segments => 1 => 1
-apc.shm_size => 128M => 128M
+apc.shm_size => 512M => 512M
 apc.shm_strings_buffer => 4M => 4M
 apc.slam_defense => On => On
 apc.stat => On => On
 apc.stat_ctime => Off => Off
-apc.ttl => 0 => 0
+apc.ttl => 7200 => 7200
 apc.use_request_time => On => On
-apc.user_entries_hint => 4096 => 4096
-apc.user_ttl => 0 => 0
+apc.user_entries_hint => 2700 => 2700
+apc.user_ttl => 3600 => 3600
 apc.write_lock => On => On
 
 bcmath
@@ -211,7 +211,7 @@ date.default_latitude => 31.7667 => 31.7667
 date.default_longitude => 35.2333 => 35.2333
 date.sunrise_zenith => 90.583333 => 90.583333
 date.sunset_zenith => 90.583333 => 90.583333
-date.timezone => no value => no value
+date.timezone => UTC => UTC
 
 dba
 
@@ -544,7 +544,7 @@ GPG_AGENT_INFO => /run/user/alganet/keyring-gmHP2D/gpg:0:1
 TERM => xterm
 SHELL => /bin/bash
 XDG_SESSION_COOKIE => c98fe8b2f7ab1e1731f2806150b187ed-1354602653.398784-1772270181
-WINDOWID => 67108870
+WINDOWID => 83886086
 GNOME_KEYRING_CONTROL => /run/user/alganet/keyring-gmHP2D
 GTK_MODULES => overlay-scrollbar
 USER => alganet
@@ -573,13 +573,13 @@ XDG_DATA_DIRS => /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share
 DBUS_SESSION_BUS_ADDRESS => unix:abstract=/tmp/dbus-1W6lEpg3mV,guid=14289c6c50975a76ab52b8ed50bd989d
 LESSOPEN => | /usr/bin/lesspipe %s
 XDG_RUNTIME_DIR => /run/user/alganet
-DISPLAY => :0.0
+DISPLAY => :0
 XDG_CURRENT_DESKTOP => Unity
 LESSCLOSE => /usr/bin/lesspipe %s %s
 COLORTERM => gnome-terminal
 XAUTHORITY => /home/alganet/.Xauthority
-OLDPWD => /home/alganet/Projects/Respect
 _ => /usr/bin/php
+OLDPWD => /home/alganet/Projects/Respect
 
 PHP Variables
 
@@ -591,7 +591,7 @@ _SERVER["GPG_AGENT_INFO"] => /run/user/alganet/keyring-gmHP2D/gpg:0:1
 _SERVER["TERM"] => xterm
 _SERVER["SHELL"] => /bin/bash
 _SERVER["XDG_SESSION_COOKIE"] => c98fe8b2f7ab1e1731f2806150b187ed-1354602653.398784-1772270181
-_SERVER["WINDOWID"] => 67108870
+_SERVER["WINDOWID"] => 83886086
 _SERVER["GNOME_KEYRING_CONTROL"] => /run/user/alganet/keyring-gmHP2D
 _SERVER["GTK_MODULES"] => overlay-scrollbar
 _SERVER["USER"] => alganet
@@ -620,20 +620,20 @@ _SERVER["XDG_DATA_DIRS"] => /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/
 _SERVER["DBUS_SESSION_BUS_ADDRESS"] => unix:abstract=/tmp/dbus-1W6lEpg3mV,guid=14289c6c50975a76ab52b8ed50bd989d
 _SERVER["LESSOPEN"] => | /usr/bin/lesspipe %s
 _SERVER["XDG_RUNTIME_DIR"] => /run/user/alganet
-_SERVER["DISPLAY"] => :0.0
+_SERVER["DISPLAY"] => :0
 _SERVER["XDG_CURRENT_DESKTOP"] => Unity
 _SERVER["LESSCLOSE"] => /usr/bin/lesspipe %s %s
 _SERVER["COLORTERM"] => gnome-terminal
 _SERVER["XAUTHORITY"] => /home/alganet/.Xauthority
-_SERVER["OLDPWD"] => /home/alganet/Projects/Respect
 _SERVER["_"] => /usr/bin/php
+_SERVER["OLDPWD"] => /home/alganet/Projects/Respect
 _SERVER["PHP_SELF"] => 
 _SERVER["SCRIPT_NAME"] => 
 _SERVER["SCRIPT_FILENAME"] => 
 _SERVER["PATH_TRANSLATED"] => 
 _SERVER["DOCUMENT_ROOT"] => 
-_SERVER["REQUEST_TIME_FLOAT"] => 1354662152.4279
-_SERVER["REQUEST_TIME"] => 1354662152
+_SERVER["REQUEST_TIME_FLOAT"] => 1354721544.2459
+_SERVER["REQUEST_TIME"] => 1354721544
 _SERVER["argv"] => Array
 (
 )
