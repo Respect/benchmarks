@@ -1,11 +1,19 @@
 var restify = require('restify'),
     sanitize = require('validator').sanitize;
 
+var server = restify.createServer({
+    formatters: {
+        'text/html': function(req, res, body){
+            return body;
+        }
+    }
+});
+
 function respond(req, res, next) {
-  res.send('hello ' + sanitize(req.params.name).xss());
+  res.contentType = 'text/html';
+  res.send('Hello ' + sanitize(req.params.name).xss());
 }
 
-var server = restify.createServer();
 server.get('/hello/:name', respond);
 server.head('/hello/:name', respond);
 
