@@ -13,31 +13,31 @@ Document Path:          /hello/alganet
 Document Length:        13 bytes
 
 Concurrency Level:      100
-Time taken for tests:   31.101 seconds
+Time taken for tests:   26.187 seconds
 Complete requests:      30000
 Failed requests:        0
 Write errors:           0
 Total transferred:      4020000 bytes
 HTML transferred:       390000 bytes
-Requests per second:    964.59 [#/sec] (mean)
-Time per request:       103.671 [ms] (mean)
-Time per request:       1.037 [ms] (mean, across all concurrent requests)
-Transfer rate:          126.23 [Kbytes/sec] received
+Requests per second:    1145.62 [#/sec] (mean)
+Time per request:       87.289 [ms] (mean)
+Time per request:       0.873 [ms] (mean, across all concurrent requests)
+Transfer rate:          149.92 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.1      0       3
-Processing:    13  103  55.8     87     316
-Waiting:       13  103  55.8     87     316
-Total:         16  104  55.8     87     316
+Connect:        0    0   0.3      0       9
+Processing:    13   87   4.8     86     112
+Waiting:       13   87   4.8     86     112
+Total:         22   87   4.7     86     112
 
 Percentage of the requests served within a certain time (ms)
-  50%     87
-  66%     87
-  75%     89
-  80%     91
-  90%    106
-  95%    290
-  98%    300
-  99%    301
- 100%    316 (longest request)
+  50%     86
+  66%     86
+  75%     88
+  80%     89
+  90%     93
+  95%     97
+  98%    101
+  99%    105
+ 100%    112 (longest request)
