@@ -12,32 +12,32 @@ Server Port:            8080
 Document Path:          /hello/alganet
 Document Length:        13 bytes
 
-Concurrency Level:      100
-Time taken for tests:   11.984 seconds
+Concurrency Level:      1
+Time taken for tests:   40.300 seconds
 Complete requests:      30000
 Failed requests:        0
 Write errors:           0
 Total transferred:      4020000 bytes
 HTML transferred:       390000 bytes
-Requests per second:    2503.26 [#/sec] (mean)
-Time per request:       39.948 [ms] (mean)
-Time per request:       0.399 [ms] (mean, across all concurrent requests)
-Transfer rate:          327.57 [Kbytes/sec] received
+Requests per second:    744.41 [#/sec] (mean)
+Time per request:       1.343 [ms] (mean)
+Time per request:       1.343 [ms] (mean, across all concurrent requests)
+Transfer rate:          97.41 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.2      0       6
-Processing:    30   40   3.7     39      83
-Waiting:       30   40   3.7     39      83
-Total:         34   40   3.7     39      83
+Connect:        0    0   0.0      0       0
+Processing:     0    1   0.4      1      40
+Waiting:        0    1   0.3      1      40
+Total:          0    1   0.4      1      40
 
 Percentage of the requests served within a certain time (ms)
-  50%     39
-  66%     40
-  75%     40
-  80%     40
-  90%     45
-  95%     47
-  98%     52
-  99%     53
- 100%     83 (longest request)
+  50%      1
+  66%      1
+  75%      1
+  80%      1
+  90%      2
+  95%      2
+  98%      2
+  99%      2
+ 100%     40 (longest request)

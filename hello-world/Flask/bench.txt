@@ -1,0 +1,47 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        gunicorn/0.16.1
+Server Hostname:        localhost
+Server Port:            8000
+
+Document Path:          /hello/alganet
+Document Length:        13 bytes
+
+Concurrency Level:      1
+Time taken for tests:   17.011 seconds
+Complete requests:      30000
+Failed requests:        0
+Write errors:           0
+Total transferred:      5190000 bytes
+HTML transferred:       390000 bytes
+Requests per second:    1763.60 [#/sec] (mean)
+Time per request:       0.567 [ms] (mean)
+Time per request:       0.567 [ms] (mean, across all concurrent requests)
+Transfer rate:          297.95 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:     0    1   0.3      0       5
+Waiting:        0    0   0.3      0       5
+Total:          0    1   0.3      0       5
+ERROR: The median and mean for the processing time are more than twice the standard
+       deviation apart. These results are NOT reliable.
+ERROR: The median and mean for the total time are more than twice the standard
+       deviation apart. These results are NOT reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      0
+  66%      0
+  75%      0
+  80%      0
+  90%      1
+  95%      2
+  98%      2
+  99%      2
+ 100%      5 (longest request)
